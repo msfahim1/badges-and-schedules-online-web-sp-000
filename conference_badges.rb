@@ -7,7 +7,7 @@ end
 
 def batch_badge_creator(name_array)
   name_array.each do |name|
-    return badge_maker(name)
+    return "Printed badge is created for you by the name #{name}"
   end
 end
 
